@@ -1,0 +1,115 @@
+body{
+  margin: 0 0 12.5rem 0;
+  background-color: #DEEEEA;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.background{
+  display:inline-block;
+  position: absolute;
+  height: 25.75rem;
+
+}
+
+/************************************** card styling *************************************************/
+
+.card{
+  background-color: white;
+  border-radius: 0.9375rem;
+  margin:auto;
+  position: relative;
+  top: 6.25rem;
+  width: 28.125rem;
+}
+
+.hero{
+  border-top-left-radius: 0.9375rem;
+  border-top-right-radius: 0.9375rem;
+}
+
+h1{
+  text-align: center;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.card_description{
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-left: 4.0625rem;
+  margin-right: 4.0625rem;
+  text-align: center;
+
+}
+
+.annualplanbox{
+  background-color: #E8F6EF;
+  border-radius: 0.9375rem;
+  margin: 1.25rem 2.5rem 1.5625rem;
+  padding:1.25rem;
+  line-height: 0.9;
+}
+
+h4{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.annualplan_subscription{
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.change{
+  display:block;
+  text-align: right;
+  font-size: 0.8rem;
+}
+
+.change:hover{
+  color: #593cfc;
+  text-decoration: none
+}
+
+.music_icon{
+  float:left;
+  padding-right: 1.25rem;
+}
+
+.cancel_order{
+  color: #687980;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.cancel_order:hover{
+  color: black;
+}
+
+/************************************** button styling *************************************************/
+
+.button_styling{
+  text-align: center;
+  margin-top: 2.5rem;
+  padding-bottom: 0.3125rem;
+}
+
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 0.625rem;
+  font-family: Red Hat Display;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 700;
+  background: #2a28db;
+  padding: 0.625rem 5rem 0.625rem 5rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #593cfc;
+  text-decoration: none;
+}
